@@ -60,7 +60,7 @@ spec:
     spec:
       containers:
       - name: springappcontainer
-        image: yarajodudocker/spring-boot-mongo:2
+        image: 797131393364.dkr.ecr.ap-south-1.amazonaws.com/java-web-app:$buildnumber
         ports:
         - containerPort: 8080
         env:
